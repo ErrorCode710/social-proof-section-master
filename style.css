@@ -87,6 +87,10 @@ body {
 /* Container Styling */
 .container {
   margin: 5rem 1.5rem;
+  margin: 5rem 1.5rem;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Typography Styling */
@@ -115,7 +119,7 @@ h1 {
   padding: 0.5rem 0;
   border-radius: 0.5rem;
 }
-.rating__review h2 {
+.rating__review p {
   font-size: 0.825rem;
   color: var(--clr-primary-1);
   display: flex;
@@ -232,7 +236,7 @@ h1 {
   .star {
     justify-content: flex-start;
   }
-  .rating__review h2 {
+  .rating__review p {
     padding: 0;
     flex-grow: 0;
   }
