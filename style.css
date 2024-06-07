@@ -73,7 +73,7 @@ body {
   display: grid;
   align-items: start;
   justify-content: center;
-  min-height: 100vh;
+
   place-content: center;
   min-height: 100vh;
   background-color: var(--clr-neutral-4);
@@ -87,6 +87,8 @@ body {
 /* Wrapper */
 .wrapper {
   display: grid;
+  grid-template-rows: auto;
+  gap: 2.5rem;
 }
 /* Container Styling */
 .container {
@@ -105,7 +107,7 @@ h1 {
   font-size: 2rem;
   margin: 0 4rem;
   padding-bottom: 1.1rem;
-  letter-spacing: -2.5px;
+  letter-spacing: -1.75px;
 }
 .heading p {
   font-weight: var(--fw-regular);
